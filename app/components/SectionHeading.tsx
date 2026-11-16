@@ -33,9 +33,11 @@ export default function SectionHeading({
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setEyeN(eyebrow.length);
-      setTitleN(title.length);
-      return;
+      const id = setTimeout(() => {
+        setEyeN(eyebrow.length);
+        setTitleN(title.length);
+      }, 0);
+      return () => clearTimeout(id);
     }
 
     const el = h2Ref.current;
