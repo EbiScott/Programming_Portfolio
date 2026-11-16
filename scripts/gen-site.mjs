@@ -4,9 +4,9 @@ import {
   siPython, siTypescript, siJavascript, siNodedotjs, siReact, siNextdotjs,
   siVite, siTailwindcss, siFastapi, siFlask, siPostgresql, siSqlite, siRedis,
   siSupabase, siDocker, siLinux, siGit, siGithubactions, siVercel, siTelegram,
-  siArduino, siEspressif, siSelenium, siScrapy, siPandas, siMongodb, siMysql,
-  siJsonwebtokens, siPostman, siVitest, siGnubash, siFfmpeg, siPydantic,
-  siSqlalchemy, siUbuntu, siNginx, siCloudflare, siOpenssl,
+  siArduino, siEspressif, siSelenium, siScrapy, siMongodb, siMysql,
+  siJsonwebtokens, siVitest, siGnubash, siFfmpeg, siPydantic,
+  siSqlalchemy, siUbuntu,
 } from "simple-icons";
 
 const linkedinPath =
