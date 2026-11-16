@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Programming Portfolio
 
-## Getting Started
+A brutalist one-page portfolio for full-stack and backend work: APIs, Python
+bots, automation, and the front ends that ship with them.
 
-First, run the development server:
+Live: https://ebi-programming.vercel.app
+
+## Stack
+
+- Next.js 16 (App Router) + React 19 + TypeScript
+- Tailwind v4 (CSS-first) with a custom brutalist system
+- Static export to `out/`, deployed on Vercel
+- A local Node content editor (no dependencies) for day-to-day edits
+
+## Develop
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+The static site is written to `out/`.
 
-To learn more about Next.js, take a look at the following resources:
+## Checks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run test          # formatting tests (node:test)
+npm run check:content # validates app/content/site.json
+npm run lint
+npm run typecheck
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Edit content
 
-## Deploy on Vercel
+Everything that changes over time lives in `app/content/site.json`. Use the
+local editor rather than editing the JSON by hand:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run edit
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+It opens http://localhost:4321. Save writes the JSON locally; Publish commits
+`app/content/site.json` and `public/` and pushes to GitHub, which triggers a
+Vercel rebuild.
+
+## Structure
+
+```
+app/
+  components/        # page sections, tiles, lightbox
+  content/site.json  # profile, experience, projects, toolbox, certs, posts
+  content/site.ts    # typed access to the JSON
+  globals.css        # the brutalist design system
+  layout.tsx         # fonts + metadata
+  page.tsx           # section composition
+public/              # résumé and uploaded images
+scripts/
+  editor/            # local editor server + UI (never deployed)
+  gen-site.mjs       # one-time baseline content generator
+  check-content.mjs  # content validation
+  format.test.mjs    # formatting tests
+```
