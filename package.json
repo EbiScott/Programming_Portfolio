@@ -9,7 +9,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
     "edit": "node scripts/editor/server.mjs",
-    "gen:content": "node scripts/gen-site.mjs"
+    "gen:content": "node scripts/gen-site.mjs",
+    "test": "node --test scripts/format.test.mjs",
+    "check:content": "node scripts/check-content.mjs"
   },
   "dependencies": {
     "lightningcss": "^1.33.0",

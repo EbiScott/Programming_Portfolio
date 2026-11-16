@@ -1,17 +1,6 @@
 import { experience } from "../content/site";
+import { range } from "../content/format.mjs";
 import SectionHeading from "./SectionHeading";
-
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-function ym(v: string): string {
-  const m = /^(\d{4})-(\d{2})$/.exec(v ?? "");
-  return m ? `${MONTHS[+m[2] - 1] ?? m[2]} ${m[1]}` : v ?? "";
-}
-
-function range(e: { start: string; end: string; current: boolean }): string {
-  const s = ym(e.start);
-  return e.current ? `${s} / NOW` : `${s} / ${ym(e.end)}`;
-}
 
 export default function Experience() {
   return (
