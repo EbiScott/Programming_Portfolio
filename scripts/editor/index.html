@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programming portfolio content editor</title>
+    <link rel="stylesheet" href="/editor.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__title">
+        <strong>Programming portfolio</strong> content editor
+        <span class="topbar__hint">local only · writes app/content/site.json</span>
+      </div>
+      <nav class="tabs" id="tabs"></nav>
+    </header>
+
+    <main id="panel" class="panel"></main>
+
+    <footer class="actionbar">
+      <span id="status" class="status"></span>
+      <div class="actionbar__btns">
+        <button id="save" class="btn btn--save" type="button">Save</button>
+        <button id="publish" class="btn btn--publish" type="button" disabled>
+          Publish to live site
+        </button>
+      </div>
+    </footer>
+
+    <script src="/editor.js" defer></script>
+  </body>
+</html>
