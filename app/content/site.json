@@ -40,15 +40,15 @@
       "start": "2023-01",
       "end": "",
       "current": true,
-      "note": "Building full-stack tools and Python automations end to end: APIs, data stores, Telegram interfaces, scheduled jobs, and the front ends that sit on top. The projects below are the record."
+      "note": "Building full-stack tools and Python automations end to end: APIs, data stores, Telegram interfaces, scheduled jobs, and the front ends for them. The projects below are the record."
     },
     {
-      "role": "Track Lead, Cyber & Networking",
+      "role": "Track Lead, Cybersecurity & Networking",
       "org": "Google Developer Group (GDG)",
       "start": "2025-09",
-      "end": "",
-      "current": true,
-      "note": "Lead technical sessions and mentor members, building demos that explain networking, APIs, and security to a general developer audience."
+      "end": "2026-10",
+      "current": false,
+      "note": "Lead technical sessions and mentor members, building demos that explain networking, APIs, and security to a general developer and cybersecurity audience."
     }
   ],
   "projects": [
