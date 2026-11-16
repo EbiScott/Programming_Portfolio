@@ -58,7 +58,7 @@
       "kind": "MCP bridge",
       "status": "Shipped",
       "summary": "A security-first bridge between LLMs and internet-connected microcontrollers.",
-      "detail": "A Model Context Protocol server that lets an LLM client read sensors from and send commands to ESP32/Arduino hardware without trusting the model, the host, or the device. Every call passes a deny-by-default policy engine, risk tiers, an anomaly detector, a data sanitizer, and a hash-chained audit log before anything physical happens.",
+      "detail": "A Model Context Protocol server that lets an LLM client read sensors from and send commands to ESP32/Arduino hardware without trusting the model, the host, or the device.",
       "stack": [
         "TypeScript",
         "Node.js",
@@ -80,7 +80,7 @@
       "kind": "Market bot",
       "status": "In progress",
       "summary": "A serverless market-watching bot for the Nigerian Exchange.",
-      "detail": "Polls NGX data, evaluates dividend, technical, fundamental, and news rules, then sends Telegram alerts in two tiers: real-time for the time-sensitive and a digest at close. Every run is a short GitHub Actions batch job backed by Turso, so there is no resident process and state survives between ephemeral runners.",
+      "detail": "Polls NGX data, evaluates dividend, technical, fundamental, and news rules, then sends Telegram alerts in two tiers: real-time for the time-sensitive and a digest at close.",
       "stack": [
         "Python",
         "GitHub Actions",
@@ -123,7 +123,7 @@
       "kind": "Offline PWA",
       "status": "In progress",
       "summary": "An audio and video journal that transcribes on the device.",
-      "detail": "A Vite + React PWA that records audio or video, stores blobs in IndexedDB, and runs Whisper in a Web Worker through transformers.js, so recordings never leave the phone. Includes a service worker for offline use, a small hash router, and tests around storage and transcript paragraphing.",
+      "detail": "",
       "stack": [
         "React",
         "Vite",
@@ -145,7 +145,7 @@
       "kind": "Bot suite",
       "status": "Shipped",
       "summary": "A family of Telegram bots for audio cleanup and transcription.",
-      "detail": "Small Python services that each do one job: pull the audio out of a video, remove background noise, or transcribe a voice note. Built separately so they can be deployed, rate-limited, and replaced independently instead of becoming one fragile monolith.",
+      "detail": "Small Python services that each do one job: pull the audio out of a video, clean up background noise, or transcribe a voice note.",
       "stack": [
         "Python",
         "Telegram Bot API",
@@ -154,16 +154,16 @@
       ],
       "links": [
         {
-          "label": "Audio extraction",
-          "href": "https://github.com/EbiScott/audio-extraction-bot"
+          "label": "Audio extractor",
+          "href": "https://t.me/ebi_audio_extraction_bot"
         },
         {
-          "label": "Noise remover",
-          "href": "https://github.com/EbiScott/Audio-Noise-Remover"
+          "label": "Noise cleaner",
+          "href": "https://t.me/ebi_noise_cleaner_bot"
         },
         {
           "label": "Transcriber",
-          "href": "https://github.com/EbiScott/Audio-Transkriptor"
+          "href": "https://t.me/ebi_audio_bot"
         }
       ],
       "image": ""
@@ -174,7 +174,7 @@
       "kind": "CLI tool",
       "status": "Shipped",
       "summary": "A Python command-line toolkit for hashing and encryption.",
-      "detail": "A Linux CLI for generating and checking hashes, encrypting and decrypting files, and running dictionary attacks against hashes in a lab. Written to make the primitives understandable at the terminal instead of hiding them behind a GUI.",
+      "detail": "A Linux CLI for generating and checking hashes, encrypting and decrypting files, and running dictionary attacks against hashes in a lab.",
       "stack": [
         "Python",
         "Cryptography",
@@ -185,28 +185,6 @@
         {
           "label": "Repository",
           "href": "https://github.com/EbiScott/HASH"
-        }
-      ],
-      "image": ""
-    },
-    {
-      "index": "P.07",
-      "title": "Purple City Blog",
-      "kind": "Full-stack app",
-      "status": "In progress",
-      "summary": "A blog split into a Flask API and a React client.",
-      "detail": "A client/server build: Flask models, authentication, and REST endpoints on one side, a React front end consuming them on the other. Built to practise the boundary between a real backend and the product that sits on top of it, including the failure cases.",
-      "stack": [
-        "Python",
-        "Flask",
-        "React",
-        "REST",
-        "SQLAlchemy"
-      ],
-      "links": [
-        {
-          "label": "Repository",
-          "href": "https://github.com/Purple-City-Blog/Purple-City-Blog"
         }
       ],
       "image": ""
