@@ -78,7 +78,7 @@
       "index": "P.02",
       "title": "NGX Watcher",
       "kind": "Market bot",
-      "status": "Shipped",
+      "status": "In progress",
       "summary": "A serverless market-watching bot for the Nigerian Exchange.",
       "detail": "Polls NGX data, evaluates dividend, technical, fundamental, and news rules, then sends Telegram alerts in two tiers: real-time for the time-sensitive and a digest at close. Every run is a short GitHub Actions batch job backed by Turso, so there is no resident process and state survives between ephemeral runners.",
       "stack": [
@@ -100,7 +100,7 @@
       "index": "P.03",
       "title": "Hall Roll Call",
       "kind": "Face verification",
-      "status": "Shipped",
+      "status": "In progress",
       "summary": "Face-verified roll call for hostel attendance.",
       "detail": "A FastAPI app where a student enters a matric number, looks at the camera, and turns their head when asked. OpenCV YuNet detects the face, SFace turns it into an embedding, and cosine similarity verifies it against one stored template. A one-time head-turn challenge rejects still photos, and staff get an admin view with CSV export.",
       "stack": [
