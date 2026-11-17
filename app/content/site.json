@@ -213,11 +213,11 @@
     },
     {
       "index": "P.08",
-      "title": "Company Site Series",
-      "kind": "Front-end collection",
+      "title": "Nocturne Hotel",
+      "kind": "Hospitality site",
       "status": "Shipped",
-      "summary": "Six fictional company websites, each with its own design language.",
-      "detail": "A set of standalone, responsive sites for a boutique hotel, a garden spa, a construction firm, a fintech, a print studio, and a newspaper. Plain HTML, CSS, and JavaScript with no build step, and each one can be deployed to Vercel on its own.",
+      "summary": "A nocturnal boutique hotel site with a rooftop bar and three room types.",
+      "detail": "A conversion-focused hotel site built around a single mood: warm light, late hours, and a city below. Room cards, a booking request form, and a responsive menu, all in plain HTML, CSS, and JavaScript.",
       "stack": [
         "HTML",
         "CSS",
@@ -226,28 +226,137 @@
       ],
       "links": [
         {
-          "label": "Nocturne Hotel",
+          "label": "Live site",
           "href": "https://nocturne-hotel.vercel.app/"
         },
         {
-          "label": "Herbarium House",
+          "label": "Source",
+          "href": "https://github.com/EbiScott/Company_Websites/tree/main/nocturne-hotel"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "index": "P.09",
+      "title": "Herbarium House",
+      "kind": "Hotel and spa site",
+      "status": "Shipped",
+      "summary": "A garden hotel and spa with botanical illustration and a seasonal table.",
+      "detail": "A quiet hospitality site built on paper tones, line-drawn plants, and a single-sitting restaurant. Includes rooms, spa treatments, a dinner menu, and an enquiry form.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vercel"
+      ],
+      "links": [
+        {
+          "label": "Live site",
           "href": "https://herbarium-house.vercel.app/"
         },
         {
-          "label": "Atlas Foundry",
+          "label": "Source",
+          "href": "https://github.com/EbiScott/Company_Websites/tree/main/herbarium-house"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "index": "P.10",
+      "title": "Atlas Foundry",
+      "kind": "Design and build site",
+      "status": "Shipped",
+      "summary": "A technical blueprint portfolio for a construction and design studio.",
+      "detail": "An architectural studio site presented as a working drawing: grid paper, figure numbers, dimension marks, and project sheets for groundworks, structures, and delivery.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vercel"
+      ],
+      "links": [
+        {
+          "label": "Live site",
           "href": "https://atlas-foundry-red.vercel.app/"
         },
         {
-          "label": "Monarch Markets",
+          "label": "Source",
+          "href": "https://github.com/EbiScott/Company_Websites/tree/main/atlas-foundry"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "index": "P.11",
+      "title": "Monarch Markets",
+      "kind": "Fintech site",
+      "status": "Shipped",
+      "summary": "A dark market-intelligence desk with a live-feeling ticker and pricing.",
+      "detail": "A fintech product site for delayed African market data. Includes an illustrative dashboard, watchlist ticker, feature grid, pricing, security notes, and an access request form.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vercel"
+      ],
+      "links": [
+        {
+          "label": "Live site",
           "href": "https://monarch-markets.vercel.app/"
         },
         {
-          "label": "Overprint Studio",
+          "label": "Source",
+          "href": "https://github.com/EbiScott/Company_Websites/tree/main/monarch-markets"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "index": "P.12",
+      "title": "Overprint Studio",
+      "kind": "Creative studio site",
+      "status": "Shipped",
+      "summary": "A print-first design studio site with risograph colour and misregistration.",
+      "detail": "A studio site built around paper, blue, and fluorescent pink. Posters, service sheets, a process section, and a project enquiry form, all without a build step.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vercel"
+      ],
+      "links": [
+        {
+          "label": "Live site",
           "href": "https://overprint-studio-alpha.vercel.app/"
         },
         {
-          "label": "The Lagos Ledger",
+          "label": "Source",
+          "href": "https://github.com/EbiScott/Company_Websites/tree/main/overprint-studio"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "index": "P.13",
+      "title": "The Lagos Ledger",
+      "kind": "Media site",
+      "status": "Shipped",
+      "summary": "An independent newspaper front page with columns, drop caps, and markets.",
+      "detail": "A broadsheet-inspired media site: masthead, markets ticker, a lead story with drop cap, latest stories, opinion, a market table, and a newsletter signup.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vercel"
+      ],
+      "links": [
+        {
+          "label": "Live site",
           "href": "https://lagos-ledger-teal.vercel.app/"
+        },
+        {
+          "label": "Source",
+          "href": "https://github.com/EbiScott/Company_Websites/tree/main/lagos-ledger"
         }
       ],
       "image": ""
