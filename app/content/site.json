@@ -551,7 +551,13 @@
         "image": ""
       }
     ],
-    "planned": []
+    "planned": [
+      {
+        "name": "CORE",
+        "issuer": "Hackviser",
+        "image": ""
+      }
+    ]
   },
   "posts": [
     {
