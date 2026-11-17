@@ -226,8 +226,28 @@
       ],
       "links": [
         {
-          "label": "Case studies on request",
-          "href": "#contact"
+          "label": "Nocturne Hotel",
+          "href": "https://nocturne-hotel.vercel.app/"
+        },
+        {
+          "label": "Herbarium House",
+          "href": "https://herbarium-house.vercel.app/"
+        },
+        {
+          "label": "Atlas Foundry",
+          "href": "https://atlas-foundry-red.vercel.app/"
+        },
+        {
+          "label": "Monarch Markets",
+          "href": "https://monarch-markets.vercel.app/"
+        },
+        {
+          "label": "Overprint Studio",
+          "href": "https://overprint-studio-alpha.vercel.app/"
+        },
+        {
+          "label": "The Lagos Ledger",
+          "href": "https://lagos-ledger-teal.vercel.app/"
         }
       ],
       "image": ""
