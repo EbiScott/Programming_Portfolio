@@ -295,7 +295,7 @@
       "kind": "Creative studio site",
       "status": "Shipped",
       "summary": "A print-first design studio site with risograph colour and misregistration.",
-      "detail": "A studio site built around paper, blue, and fluorescent pink. Posters, service sheets, a process section, and a project enquiry form, all without a build step.",
+      "detail": "A fictional studio site built around paper, blue, and fluorescent pink. Posters, service sheets, a process section, and a project enquiry form, all without a build step.",
       "stack": [
         "HTML",
         "CSS",
