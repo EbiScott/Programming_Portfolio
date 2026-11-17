@@ -561,7 +561,7 @@
   },
   "posts": [
     {
-      "title": "Building Tether, a governed bridge from LLMs to hardware",
+      "title": "Building Tether, a security bridge for LLMs to hardware",
       "note": "Why an LLM that can flip a relay is an attack surface, and what a policy engine, sanitizer, and audit log actually buy you.",
       "status": "In progress",
       "href": "",
