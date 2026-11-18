@@ -15,7 +15,7 @@ export default function Skills() {
       <div className="section__inner">
         <SectionHeading
           eyebrow="03 / Toolbox"
-          title="The tools I reach for, grouped by the job."
+          title="Tools I use."
           titleId="toolbox-heading"
         />
 

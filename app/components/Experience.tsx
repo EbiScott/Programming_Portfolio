@@ -8,7 +8,7 @@ export default function Experience() {
       <div className="section__inner">
         <SectionHeading
           eyebrow="04 / Experience"
-          title="What I have been responsible for."
+          title="Experience."
           titleId="experience-heading"
         />
 

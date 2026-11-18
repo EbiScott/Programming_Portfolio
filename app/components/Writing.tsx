@@ -7,7 +7,7 @@ export default function Writing() {
       <div className="section__inner">
         <SectionHeading
           eyebrow="05 / Writing"
-          title="Notes from building the thing."
+          title="Writing."
           titleId="writing-heading"
         />
 

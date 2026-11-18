@@ -7,14 +7,13 @@ export default function Contact() {
       <div className="section__inner">
         <SectionHeading
           eyebrow="07 / Contact"
-          title="Have something that should run by itself?"
+          title="Get in touch."
           titleId="contact-heading"
         />
 
         <p className="contact__lead">
-          I am open to backend work, bot builds, and automation projects. The
-          fastest way to reach me is email. Include the shape of the problem and
-          what has to happen without a human.
+          I&apos;m open to backend, bot, and automation work. Email me with the
+          problem and what should happen without a human.
         </p>
 
         <a className="contact__email" href={`mailto:${profile.email}`}>

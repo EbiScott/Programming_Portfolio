@@ -1,8 +1,7 @@
 import { profile, projects, skills } from "../content/site";
 
 const ROLE = "Full-stack developer · Backend · Python automation";
-const HOOK =
-  "I build the part that runs after the browser closes: APIs, bots, and the quiet automation that keeps a product moving without anyone watching it.";
+const HOOK = "I build APIs, bots, and automation, mostly in Python.";
 
 export default function Hero() {
   const stackCount = skills.reduce((n, g) => n + g.skills.length, 0);
@@ -53,19 +52,19 @@ export default function Hero() {
         <div className="stats" aria-label="At a glance">
           <div className="stat">
             <span className="stat__num">{String(projects.length).padStart(2, "0")}</span>
-            <span className="stat__label">selected builds</span>
+            <span className="stat__label">selected projects</span>
           </div>
           <div className="stat">
             <span className="stat__num">{String(stackCount).padStart(2, "0")}</span>
-            <span className="stat__label">tools in the stack</span>
+            <span className="stat__label">tools used</span>
           </div>
           <div className="stat">
             <span className="stat__num">PY</span>
-            <span className="stat__label">the default language</span>
+            <span className="stat__label">main language</span>
           </div>
           <div className="stat">
             <span className="stat__num">01</span>
-            <span className="stat__label">person, end to end</span>
+            <span className="stat__label">end to end</span>
           </div>
         </div>
       </section>

@@ -41,7 +41,7 @@ export default function Certifications() {
       <div className="section__inner">
         <SectionHeading
           eyebrow="06 / Credentials"
-          title="Certifications and the paper trail."
+          title="Certifications."
           titleId="credentials-heading"
         />
 

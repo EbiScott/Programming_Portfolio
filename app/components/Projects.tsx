@@ -8,7 +8,7 @@ export default function Projects() {
       <div className="section__inner">
         <SectionHeading
           eyebrow="02 / Selected work"
-          title="Things I built, and what they had to survive."
+          title="Selected work."
           titleId="projects-heading"
         />
 

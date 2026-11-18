@@ -40,7 +40,7 @@
       "start": "2023-01",
       "end": "",
       "current": true,
-      "note": "Building full-stack tools and Python automations end to end: APIs, data stores, Telegram interfaces, scheduled jobs, and the front ends for them. The projects below are the record."
+      "note": "I build full-stack tools and Python automations end to end."
     },
     {
       "role": "Track Lead, Cybersecurity & Networking",
@@ -48,7 +48,7 @@
       "start": "2025-09",
       "end": "2026-10",
       "current": false,
-      "note": "Lead technical sessions and mentor members, building demos that explain networking, APIs, and security to a general developer and cybersecurity audience."
+      "note": "I lead technical sessions, mentor members, and build demos for networking, APIs, and security."
     }
   ],
   "projects": [
@@ -57,8 +57,8 @@
       "title": "Tether",
       "kind": "MCP bridge",
       "status": "Shipped",
-      "summary": "A security-first bridge between LLMs and internet-connected microcontrollers.",
-      "detail": "A Model Context Protocol server that lets an LLM client read sensors from and send commands to ESP32/Arduino hardware without trusting the model, the host, or the device.",
+      "summary": "An MCP bridge between LLMs and ESP32/Arduino hardware.",
+      "detail": "Lets an LLM read sensors and send commands without trusting the model, host, or device.",
       "stack": [
         "TypeScript",
         "Node.js",
@@ -79,8 +79,8 @@
       "title": "NGX Watcher",
       "kind": "Market bot",
       "status": "In progress",
-      "summary": "A serverless market-watching bot for the Nigerian Exchange.",
-      "detail": "Polls NGX data, evaluates dividend, technical, fundamental, and news rules, then sends Telegram alerts in two tiers: real-time for the time-sensitive and a digest at close.",
+      "summary": "A serverless bot that watches NGX market rules and sends Telegram alerts.",
+      "detail": "Runs on GitHub Actions, checks dividend, technical, fundamental, and news rules, then sends real-time alerts and a close digest.",
       "stack": [
         "Python",
         "GitHub Actions",
@@ -102,7 +102,7 @@
       "kind": "Face verification",
       "status": "In progress",
       "summary": "Face-verified roll call for hostel attendance.",
-      "detail": "A FastAPI app where a student enters a matric number, looks at the camera, and turns their head when asked. OpenCV YuNet detects the face, SFace turns it into an embedding, and cosine similarity verifies it against one stored template. A one-time head-turn challenge rejects still photos, and staff get an admin view with CSV export.",
+      "detail": "A student enters a matric number and turns their head on camera. A one-time check rejects still photos, and staff get an admin view with CSV export.",
       "stack": [
         "Python",
         "FastAPI",
@@ -122,7 +122,7 @@
       "title": "Parrot",
       "kind": "Offline PWA",
       "status": "In progress",
-      "summary": "An audio and video journal that transcribes on the device.",
+      "summary": "An offline audio and video journal that transcribes on the device.",
       "detail": "",
       "stack": [
         "React",
@@ -144,8 +144,8 @@
       "title": "Audio Ops Bots",
       "kind": "Bot suite",
       "status": "Shipped",
-      "summary": "A family of Telegram bots for audio cleanup and transcription.",
-      "detail": "Small Python services that each do one job: pull the audio out of a video, clean up background noise, or transcribe a voice note.",
+      "summary": "Three Telegram bots for audio extraction, cleanup, and transcription.",
+      "detail": "Each bot does one job: pull audio from a video, clean up background noise, or transcribe a voice note.",
       "stack": [
         "Python",
         "Telegram Bot API",
@@ -173,8 +173,8 @@
       "title": "HASH",
       "kind": "CLI tool",
       "status": "Shipped",
-      "summary": "A Python command-line toolkit for hashing and encryption.",
-      "detail": "A Linux CLI for generating and checking hashes, encrypting and decrypting files, and running dictionary attacks against hashes in a lab.",
+      "summary": "A Python CLI for hashing and encryption.",
+      "detail": "Generate and check hashes, encrypt and decrypt files, and run dictionary attacks in a lab.",
       "stack": [
         "Python",
         "Cryptography",
@@ -194,8 +194,8 @@
       "title": "Nocturne Hotel",
       "kind": "Hospitality site",
       "status": "Shipped",
-      "summary": "A nocturnal boutique hotel site with a rooftop bar and three room types.",
-      "detail": "A conversion-focused hotel site built around a single mood: warm light, late hours, and a city below. Room cards, a booking request form, and a responsive menu, all in plain HTML, CSS, and JavaScript.",
+      "summary": "A boutique hotel site with a rooftop bar and three room types.",
+      "detail": "Room cards, a booking request form, and a responsive menu, all in plain HTML, CSS, and JavaScript.",
       "stack": [
         "HTML",
         "CSS",
@@ -219,8 +219,8 @@
       "title": "Herbarium House",
       "kind": "Hotel and spa site",
       "status": "Shipped",
-      "summary": "A garden hotel and spa with botanical illustration and a seasonal table.",
-      "detail": "A quiet hospitality site built on paper tones, line-drawn plants, and a single-sitting restaurant. Includes rooms, spa treatments, a dinner menu, and an enquiry form.",
+      "summary": "A garden hotel and spa site with a seasonal dinner menu.",
+      "detail": "Rooms, spa treatments, a dinner menu, and an enquiry form, built in plain HTML, CSS, and JavaScript.",
       "stack": [
         "HTML",
         "CSS",
@@ -244,8 +244,8 @@
       "title": "Atlas Foundry",
       "kind": "Design and build site",
       "status": "Shipped",
-      "summary": "A technical blueprint portfolio for a construction and design studio.",
-      "detail": "An architectural studio site presented as a working drawing: grid paper, figure numbers, dimension marks, and project sheets for groundworks, structures, and delivery.",
+      "summary": "A construction studio site built like a working drawing.",
+      "detail": "Project sheets for groundworks, structures, and delivery, with grid paper and dimension marks.",
       "stack": [
         "HTML",
         "CSS",
@@ -269,8 +269,8 @@
       "title": "Monarch Markets",
       "kind": "Fintech site",
       "status": "Shipped",
-      "summary": "A dark market-intelligence desk with a live-feeling ticker and pricing.",
-      "detail": "A fintech product site for delayed African market data. Includes an illustrative dashboard, watchlist ticker, feature grid, pricing, security notes, and an access request form.",
+      "summary": "A market data site for delayed African quotes.",
+      "detail": "A dashboard, watchlist ticker, pricing, security notes, and an access request form.",
       "stack": [
         "HTML",
         "CSS",
@@ -294,8 +294,8 @@
       "title": "Overprint Studio",
       "kind": "Creative studio site",
       "status": "Shipped",
-      "summary": "A print-first design studio site with risograph colour and misregistration.",
-      "detail": "A fictional studio site built around paper, blue, and fluorescent pink. Posters, service sheets, a process section, and a project enquiry form, all without a build step.",
+      "summary": "A print-first design studio site with risograph colour.",
+      "detail": "Posters, service sheets, a process section, and a project enquiry form, with no build step.",
       "stack": [
         "HTML",
         "CSS",
@@ -319,8 +319,8 @@
       "title": "The Lagos Ledger",
       "kind": "Media site",
       "status": "Shipped",
-      "summary": "An independent newspaper front page with columns, drop caps, and markets.",
-      "detail": "A broadsheet-inspired media site: masthead, markets ticker, a lead story with drop cap, latest stories, opinion, a market table, and a newsletter signup.",
+      "summary": "A newspaper front page with columns, drop caps, and markets.",
+      "detail": "Masthead, markets ticker, a lead story, latest stories, opinion, and a newsletter signup.",
       "stack": [
         "HTML",
         "CSS",
@@ -343,7 +343,7 @@
   "skills": [
     {
       "heading": "Backend & APIs",
-      "blurb": "The part that has to keep working.",
+      "blurb": "APIs and backend services.",
       "skills": [
         {
           "label": "Python",
@@ -392,7 +392,7 @@
     },
     {
       "heading": "Bots & automation",
-      "blurb": "Work that runs when nobody is watching.",
+      "blurb": "Bots and scheduled jobs.",
       "skills": [
         {
           "label": "Telegram",
@@ -431,7 +431,7 @@
     },
     {
       "heading": "Frontend & product",
-      "blurb": "Enough front end to ship the whole thing.",
+      "blurb": "Front end and product work.",
       "skills": [
         {
           "label": "React",
@@ -469,7 +469,7 @@
     },
     {
       "heading": "Infrastructure & data",
-      "blurb": "Getting it deployed and keeping it observable.",
+      "blurb": "Linux, deployment, and data.",
       "skills": [
         {
           "label": "Linux",
@@ -562,42 +562,42 @@
   "posts": [
     {
       "title": "Building Tether, a security bridge for LLMs to hardware",
-      "note": "Why an LLM that can flip a relay is an attack surface, and what a policy engine, sanitizer, and audit log actually buy you.",
+      "note": "What a policy engine, sanitizer, and audit log buy you when an LLM can flip a relay.",
       "status": "In progress",
       "href": "",
       "image": ""
     },
     {
       "title": "Running a Python bot with no server",
-      "note": "Scheduled GitHub Actions, a hosted SQLite database, and a Telegram interface: a bot that costs nothing between runs.",
+      "note": "GitHub Actions, hosted SQLite, and Telegram.",
       "status": "Planned",
       "href": "",
       "image": ""
     },
     {
       "title": "Building I_Sniff",
-      "note": "Designing and shipping an ARP man-in-the-middle sniffer, and why building the attack is the fastest way to understand the defence.",
+      "note": "Building an ARP man-in-the-middle sniffer to understand the defence.",
       "status": "Published",
       "href": "https://0xk4m1.hashnode.dev/i-sniff-mitm-packet-sniffer-arp-spoofing",
       "image": ""
     },
     {
       "title": "Writing a network IP sweeper",
-      "note": "Mapping the subnets in a network, and how to enumerate hosts quickly without overcomplicating it.",
+      "note": "Mapping subnets and enumerating hosts.",
       "status": "Published",
       "href": "https://0xk4m1.hashnode.dev/https-0xk4m1-hashnode-dev-ipsweep-sh-a-host-discovery-recon-tool-on-a-24-network",
       "image": ""
     },
     {
       "title": "Designing Hall Roll Call's liveness check",
-      "note": "One-time head-turn challenges, cosine thresholds, and the attacks a camera-only flow still cannot stop.",
+      "note": "Head-turn challenges and the attacks a camera-only flow cannot stop.",
       "status": "Planned",
       "href": "",
       "image": ""
     },
     {
       "title": "What a face-verification API taught me about failure modes",
-      "note": "Thresholds, lighting, and the difference between a false reject and a false accept when the app is the only gate.",
+      "note": "False rejects, false accepts, and what a camera-only flow misses.",
       "status": "Planned",
       "href": "",
       "image": ""
