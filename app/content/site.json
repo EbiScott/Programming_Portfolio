@@ -102,7 +102,7 @@
       "kind": "Face verification",
       "status": "In progress",
       "summary": "Face-verified roll call for hostel attendance.",
-      "detail": "A student enters a matric number and turns their head on camera. A one-time check rejects still photos, and staff get an admin view with CSV export.",
+      "detail": "A student enters a matric number and turns their camera on. A one-time check rejects still photos, and staff get an admin view with CSV export.",
       "stack": [
         "Python",
         "FastAPI",
