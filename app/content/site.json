@@ -133,7 +133,11 @@
       ],
       "links": [
         {
-          "label": "Repository",
+          "label": "Live site",
+          "href": "https://parrot-jet.vercel.app/"
+        },
+        {
+          "label": "Source",
           "href": "https://github.com/EbiScott/Parrot"
         }
       ],
