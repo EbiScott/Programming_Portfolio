@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import ScrollReveal from "./components/ScrollReveal";
 import "./globals.css";
 
 const grotesk = Space_Grotesk({
@@ -55,7 +56,10 @@ export default function RootLayout({
       lang="en"
       className={`${grotesk.variable} ${mono.variable} h-full antialiased`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full">
+        {children}
+        <ScrollReveal />
+      </body>
     </html>
   );
 }
